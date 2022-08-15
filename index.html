@@ -16,12 +16,12 @@
 
     </header>
     <main class="container">
-        <section class="formatoCrono sombraCrono">
-            <p class=" text-center mt-5 ">00:00:00</p>
+        <section class="formatoCrono sombraCrono marco">
+            <p class=" text-center mt-5 tiempo " id="tiempo">00:00:00.000</p>
             <div class="text-center">
-                <button class="btn btn-primary">Iniciar</button>
-                <button class="btn btn-primary mx-3">Reset</button>
-                <button class="btn btn-primary">Pausar</button>
+                <button class="btn btn-primary" onclick="iniciar()">Iniciar</button>
+                <button class="btn btn-primary mx-3" onclick="pausar()">Pausar</button>
+                <button class="btn btn-primary" onclick="reiniciar()">Reset</button>
             </div>
             
         </section>
